@@ -9,8 +9,6 @@
 
 A modern React application for managing nodes and their connections, built with Feature-Sliced Design (FSD) architecture.
 
-🌐 **Try it online**: [https://nodegram.org/](https://nodegram.org/)
-
 ## 📸 Screenshots
 
 <div align="center">
