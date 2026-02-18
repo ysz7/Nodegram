@@ -111,7 +111,7 @@ client/src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/charredcrow/Nodegram.git
+git clone https://github.com/ysz7/Nodegram.git
 cd Nodegram/client
 ```
 
