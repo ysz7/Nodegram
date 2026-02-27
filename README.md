@@ -9,8 +9,6 @@
 
 A modern React application for managing nodes and their connections, built with Feature-Sliced Design (FSD) architecture.
 
-🌐 **Try it online**: [https://nodegram.org/](https://nodegram.org/)
-
 ## 📸 Screenshots
 
 <div align="center">
@@ -113,7 +111,7 @@ client/src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/charredcrow/Nodegram.git
+git clone https://github.com/ysz7/Nodegram.git
 cd Nodegram/client
 ```
 
