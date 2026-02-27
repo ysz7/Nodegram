@@ -18,7 +18,7 @@ export const createExampleNodes = (): Node[] => {
 
 <h3>About the Project</h3>
 <p>🌐 <strong>Open Source:</strong> Nodegram is freely available and open for contributions. The project is licensed under MIT, allowing anyone to use, modify, and distribute the code.</p>
-<p>🔗 <strong>GitHub:</strong> <a href="https://github.com/charredcrow/nodegram" target="_blank" rel="noopener noreferrer">github.com/charredcrow/nodegram</a> - Visit our repository to view the source code, report issues, suggest features, or contribute to the project.</p>
+<p>🔗 <strong>GitHub:</strong> <a href="https://github.com/ysz7/Nodegram" target="_blank" rel="noopener noreferrer">github.com/ysz7/Nodegram</a> - Visit the official repository to view the source code, report issues, suggest features, or contribute to the project.</p>
 <p>🧪 <strong>Playground:</strong> This workspace is designed for testing and exploring features. You can experiment with all functionality without any restrictions.</p>
 <p>📐 <strong>Architecture:</strong> Built with React 18, TypeScript, Vite, Zustand for state management, D3.js for graph visualization, and follows Feature-Sliced Design (FSD) architecture principles for better code organization and scalability.</p>
 <p>💻 <strong>Client-Side Only:</strong> All data is stored locally in your browser's localStorage. No backend server is required, making it easy to run and deploy.</p>
@@ -41,32 +41,31 @@ export const createExampleNodes = (): Node[] => {
     },
     {
       id: generateNodeId(),
-      title: 'GitHub Repository',
-      description: 'Open source project on GitHub',
+      title: 'Nodegram GitHub Repository',
+      description: 'Official Nodegram repository on GitHub',
       x: 400,
       y: 100,
       type: 'typeA',
-      nodeColor: '#7835dc', //
+      nodeColor: '#7835dc',
       content: {
-        html_editor: `<h2>🔗 GitHub Repository</h2>
+        html_editor: `<h2>🔗 Nodegram on GitHub</h2>
 
-<p><strong>Nodegram</strong> is an open-source project hosted on GitHub.</p>
+<p><strong>Nodegram</strong> is an open-source visual workspace for creating, organizing, and connecting nodes.</p>
 
-<h3>Repository</h3>
-<p><a href="https://github.com/charredcrow/nodegram" target="_blank" rel="noopener noreferrer">https://github.com/charredcrow/nodegram</a></p>
+<h3>Official repository</h3>
+<p><a href="https://github.com/ysz7/Nodegram" target="_blank" rel="noopener noreferrer">https://github.com/ysz7/Nodegram</a></p>
 
-<h3>What you can do:</h3>
-<p>⭐ Star the repository</p>
-<p>🐛 Report issues</p>
-<p>💡 Suggest features</p>
-<p>🔧 Submit pull requests</p>
-<p>📖 Read documentation</p>
-<p>🤝 Contribute to the project</p>
+<h3>Why visit the repo?</h3>
+<p>⭐ Star Nodegram to support the project</p>
+<p>🐛 Report bugs and track issues</p>
+<p>💡 Propose new ideas and enhancements</p>
+<p>🔧 Open pull requests with improvements</p>
+<p>📖 Explore the codebase and documentation</p>
 
-<h3>Project Status</h3>
-<p>This is a <strong>playground/testing environment</strong> for the Nodegram project. Feel free to experiment and provide feedback!</p>
+<h3>Made for exploration</h3>
+<p>This workspace is a <strong>playground/testing environment</strong> for Nodegram. Try different node types, experiment with connections, and share your feedback in the repository.</p>
 
-<p><em>Built with ❤️ by the open-source community</em></p>`,
+<p><em>Built with ❤️ by the open-source community at <a href="https://github.com/ysz7/Nodegram" target="_blank" rel="noopener noreferrer">github.com/ysz7/Nodegram</a></em></p>`,
       },
     },
   ];
