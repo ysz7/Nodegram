@@ -10,6 +10,8 @@ export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production';
 
   return {
+    // Base path for GitHub Pages project (https://ysz7.github.io/Nodegram/)
+    base: '/Nodegram/',
     plugins: [
       react(),
       ...(isProduction
