@@ -38,9 +38,9 @@ const AppContent = () => {
   return (
     <div className="container">
       <Routes>
+        <Route path="/" element={<WorkspacePage />} />
         <Route path="/workspace" element={<WorkspacePage />} />
-        <Route path="/" element={<Navigate to="/workspace" replace />} />
-        <Route path="*" element={<Navigate to="/workspace" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   );
